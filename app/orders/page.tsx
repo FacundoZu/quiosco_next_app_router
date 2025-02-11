@@ -15,7 +15,7 @@ export default function OrdersPage() {
 
     if (isLoading) return <p>Cargando...</p>
 
-    if (data) (
+    if (data) return (
         <>
             <h1 className="text-center mt-20 text-6xl font-black">Ordenes Listas</h1>
 
